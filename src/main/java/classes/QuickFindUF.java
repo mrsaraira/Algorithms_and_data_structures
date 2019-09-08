@@ -1,4 +1,4 @@
-package Classes;
+package classes;
 
 import java.util.Arrays;
 
@@ -57,14 +57,14 @@ public class QuickFindUF {
         QuickUnionUFWeighted quickUnionWeighted = new QuickUnionUFWeighted(10);
         System.out.println(quickUnionWeighted);
         quickUnionWeighted.union(4, 3);
-        quickUnionWeighted.union(3,8);
-        quickUnionWeighted.union(6,5);
-        quickUnionWeighted.union(9,4);
-        quickUnionWeighted.union(2,1);
-        quickUnionWeighted.union(5,0);
-        quickUnionWeighted.union(7,2);
-        quickUnionWeighted.union(6,1);
-        quickUnionWeighted.union(7,3);
+        quickUnionWeighted.union(3, 8);
+        quickUnionWeighted.union(6, 5);
+        quickUnionWeighted.union(9, 4);
+        quickUnionWeighted.union(2, 1);
+        quickUnionWeighted.union(5, 0);
+        quickUnionWeighted.union(7, 2);
+        quickUnionWeighted.union(6, 1);
+        quickUnionWeighted.union(7, 3);
         System.out.println(quickUnionWeighted);
 
     }

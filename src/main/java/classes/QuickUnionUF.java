@@ -1,21 +1,18 @@
-package Classes;
+package classes;
 
 import java.util.Arrays;
 
-public class QuickUnionUFWeighted {
+public class QuickUnionUF {
     private int[] id;
-    private int[] sz;
 
-    public QuickUnionUFWeighted(int n) {
+    public QuickUnionUF(int n) {
         id = new int[n];
-        sz = new int[n];
         for (int i = 0; i < n; i++) {
             id[i] = i;
-            sz[i] = 1;
         }
     }
 
-    public QuickUnionUFWeighted() {
+    public QuickUnionUF() {
     }
 
     private int root(int i) {
@@ -27,14 +24,7 @@ public class QuickUnionUFWeighted {
     public void union(int p, int q) {
         int i = root(p);
         int j = root(q);
-        if (i == j) return;
-        if (sz[i] < sz[j]) {
-            id[i] = j;
-            sz[j] += sz[i];
-        } else {
-            id[j] = i;
-            sz[i] += sz[j];
-        }
+        id[i] = j;
     }
 
     public boolean connected(int p, int q) {
