@@ -1,4 +1,4 @@
-package classes;
+package com.mrsarayra.algorithms.classes;
 
 public class QuickUnionPathCompressed extends QuickUnionUFWeighted {
     @Override

@@ -2,21 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6fdd60ba-3d91-4c2d-a0ee-da111a8c8562" name="Default Changelist" comment="Improvments added to QuickUnion">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Classes/QuickUnionPathCompressed.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/d/cd42c8636ae40ea32f798d946231e3a0897fd7d3" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithms.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Classes/QuickFindUF.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Classes/QuickFindUF.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Classes/QuickUnionUFWeighted.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Classes/QuickUnionUFWeighted.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Classes/QuickUnionUFWeighted.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Classes/QuickUnionUFWeighted.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/algorithms.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/META-INF/algorithms.kotlin_module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/classes/QuickFindUF.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/classes/QuickUnionPathCompressed.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/classes/QuickUnionUF.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/classes/QuickUnionUFWeighted.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Classes/QuickFindUF.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Classes/QuickUnionUF.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Classes/QuickUnionUFWeighted.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/algorithms.kotlin_module" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
   </component>
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
@@ -39,17 +44,21 @@
       </MavenImportingSettings>
     </option>
   </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
   <component name="ProjectId" id="1QYvskhaoUuVbNheY49uzhwARBF" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Java" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -68,7 +77,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.mrsarayra.algorithms.Main" />
+      <module name="algorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mrsarayra.algorithms.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="QuickFindUF" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="classes.QuickFindUF" />
       <module name="algorithms" />
@@ -76,6 +98,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -100,6 +127,7 @@
       <workItem from="1567962201088" duration="102000" />
       <workItem from="1567962315102" duration="621000" />
       <workItem from="1567962953669" duration="2469000" />
+      <workItem from="1586943838280" duration="31000" />
     </task>
     <servers />
   </component>
