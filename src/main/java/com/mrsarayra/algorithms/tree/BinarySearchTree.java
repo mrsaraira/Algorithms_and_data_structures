@@ -34,23 +34,37 @@ public class BinarySearchTree extends AbstractTree<Integer> {
     }
 
 
+    public boolean containsValue(Integer value) {
+        return containsValue(root, value);
+    }
+
+
+    private boolean containsValue(Node<Integer> root, Integer value) {
+        if (root == null) {
+            return false;
+        }
+        if (root.getData().equals(value)) {
+            return true;
+        }
+        return value > root.getData() ?
+                containsValue(root.getRight(), value) :
+                containsValue(root.getLeft(), value);
+    }
+
+
     public static void main(String[] args) {
         BinarySearchTree binarySearchTree = new BinarySearchTree(8);
-        Node<Integer> root1 = new Node<>(8);
-        binarySearchTree.insert(root1, 3);
-        binarySearchTree.insert(root1, 1);
-        binarySearchTree.insert(root1, 6);
-        binarySearchTree.insert(root1, 7);
-        binarySearchTree.insert(root1, 10);
-        binarySearchTree.insert(root1, 14);
-        binarySearchTree.insert(root1, 4);
+        binarySearchTree.insert(1);
+        binarySearchTree.insert(2);
+        binarySearchTree.insert(6);
+        binarySearchTree.insert(7);
+        binarySearchTree.insert(10);
+        binarySearchTree.insert(14);
+        binarySearchTree.insert(4);
 
         System.out.println("Inorder traversal");
-        binarySearchTree.inorderTraversal(root1);
-//        System.out.println("Preorder traversal");
-//        binarySearchTree.preorderTraversal(root1);
-//        System.out.println("Postnorder traversal");
-//        binarySearchTree.postorderTraversal(root1);
+        binarySearchTree.inorderTraversal(binarySearchTree.getRoot());
+        System.out.println(binarySearchTree.containsValue(4));
     }
 
 }
